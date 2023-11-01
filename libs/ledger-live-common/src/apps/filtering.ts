@@ -21,7 +21,7 @@ export type FilterOptions = {
   installQueue?: string[];
   installedApps: InstalledItem[];
   type: AppType[];
-};
+}; 
 
 type UpdateAwareInstalledApps = Record<string, boolean>;
 
