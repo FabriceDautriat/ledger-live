@@ -163,7 +163,7 @@ jobs:
       - name: scan ledger-live-common
         uses: sonarsource/sonarqube-scan-action@master
         with:
-          projectBaseDir: /libs/ledger-live-common
+          projectBaseDir: ./libs/ledger-live-common
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
