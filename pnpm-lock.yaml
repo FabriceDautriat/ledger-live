@@ -1966,8 +1966,8 @@ importers:
         specifier: ^0.9.16
         version: 0.9.16
       '@keplr-wallet/proto-types':
-        specifier: ^0.10.4
-        version: 0.10.4
+        specifier: ^0.12.0
+        version: 0.12.40
       '@ledgerhq/coin-algorand':
         specifier: workspace:^
         version: link:../coin-algorand
@@ -15758,8 +15758,8 @@ packages:
       sha.js: 2.4.11
     dev: false
 
-  /@keplr-wallet/proto-types@0.10.4:
-    resolution: {integrity: sha512-n/ZmiENgvARs1h0hedy/mh57DNF7SH/DgfTqeT89+JKHfwRs2ikrCwXw6HzCn3yaDiv+0H/LudnNPf8WVZcw+w==}
+  /@keplr-wallet/proto-types@0.12.40:
+    resolution: {integrity: sha512-HU5m3tqqOvOgp/f5u4Hqm4oM3axCWlWV7A7bPD2SsxZUVn6XPtxw+81Jdmhdfuw7mWHAV71ifLEa4+tZX+bEYA==}
     dependencies:
       long: 4.0.0
       protobufjs: 6.11.3
@@ -50370,6 +50370,7 @@ packages:
   /punycode@2.1.1:
     resolution: {integrity: sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==}
     engines: {node: '>=6'}
+    dev: false
 
   /punycode@2.3.0:
     resolution: {integrity: sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==}
@@ -56439,7 +56440,7 @@ packages:
     engines: {node: '>=0.8'}
     dependencies:
       psl: 1.8.0
-      punycode: 2.1.1
+      punycode: 2.3.0
     dev: false
 
   /tough-cookie@3.0.1:
@@ -56448,7 +56449,7 @@ packages:
     dependencies:
       ip-regex: 2.1.0
       psl: 1.8.0
-      punycode: 2.1.1
+      punycode: 2.3.0
     dev: true
 
   /tough-cookie@4.0.0:
@@ -56456,7 +56457,7 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       psl: 1.8.0
-      punycode: 2.1.1
+      punycode: 2.3.0
       universalify: 0.1.2
     dev: true
 
@@ -56488,7 +56489,7 @@ packages:
     resolution: {integrity: sha512-l7FvfAHlcmulp8kr+flpQZmVwtu7nfRV7NZujtN0OqES8EL4O4e0qqzL0DC5gAvx/ZC/9lk6rhcUwYvkBnBnYA==}
     engines: {node: '>=12'}
     dependencies:
-      punycode: 2.1.1
+      punycode: 2.3.0
     dev: true
 
   /trace-event-lib@1.3.1:
@@ -58091,7 +58092,7 @@ packages:
   /uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
     dependencies:
-      punycode: 2.1.1
+      punycode: 2.3.0
 
   /urijs@1.19.11:
     resolution: {integrity: sha512-HXgFDgDommxn5/bIv0cnQZsPhHDA90NPHD6+c/v21U5+Sx5hoP8+dP9IZXBU1gIfvdRfhG8cel9QNPeionfcCQ==}
