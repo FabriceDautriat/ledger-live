@@ -16599,10 +16599,6 @@ packages:
     resolution: {integrity: sha512-iR8GBkDt0Q3GyaVcIu7mSsVIqnFbkbRzGLWlvhwunacoLwt4J3swfKhfaM6rN6WY+TBGoYT1GtT1mIh2/jGbRQ==}
     dev: false
 
-  /@noble/hashes@1.1.5:
-    resolution: {integrity: sha512-LTMZiiLc+V4v1Yi16TD6aX2gmtKszNye0pQgbaLqkvhIqP7nVsSaJsWloGQjJfJ8offaoP5GtX3yY5swbcJxxQ==}
-    dev: false
-
   /@noble/hashes@1.2.0:
     resolution: {integrity: sha512-FZfhjEDbT5GRswV3C6uvLPHMiVD6lQBmpoX5+eSiPaMTXte/IKqI5dykDxzZB/WBeK/CDuQRBWarPdi3FNY2zQ==}
     dev: false
@@ -17173,9 +17169,9 @@ packages:
       react-native: '*'
     dependencies:
       '@babel/runtime': 7.23.2
-      '@polkadot/ui-shared': 2.11.3(@polkadot/util-crypto@10.4.2)(@polkadot/util@10.4.2)
-      '@polkadot/util': 10.4.2
-      '@polkadot/util-crypto': 10.4.2
+      '@polkadot/ui-shared': 3.6.3(@polkadot/util-crypto@12.5.1)(@polkadot/util@12.5.1)
+      '@polkadot/util': 12.5.1
+      '@polkadot/util-crypto': 12.5.1(@polkadot/util@12.5.1)
       react: 18.2.0
       react-native: 0.72.6(@babel/core@7.23.2)(react@18.2.0)
       react-native-svg: 12.5.1(react-native@0.72.6)(react@18.2.0)
